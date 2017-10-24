@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet demo</title>
+	<script type="text/javascript" src="data-france-regions.geojson"></script>
+	<script src="http://d3js.org/d3.v4.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+	<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script> 
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+
+<style type="text/css">
+	.titre , .info {
+		padding: 6px 8px;
+		font: 14px/16px Arial, Helvetica, sans-serif;
+		background: rgba(255,255,255,0.9);
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+	}
+
+	.titre h4 {
+		margin: 0 0 5px;
+		color: #777;
+	}
+
+</style>
+
+   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+   <script type="text/javascript" src="leaflet_tt.js"></script>
+
+</head>
+<body onload="init2()"> 
+	<div id="map" style="height : 500px; width : 500px"></div>
+</body>
